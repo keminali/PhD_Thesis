@@ -1,0 +1,70 @@
+Table of contents
+
+1. Introduction
+  a. Background and motivation
+  b. Research questions
+  c. Objectives
+  d. Accomplishments
+  e. Structure of the thesis
+
+2. Literature review
+a. Marine Energy
+b. Steady study of tidal turbine
+   1) lab experiment
+   2) numerical modelling
+c. Unsteady study of tidal turbine
+   1) turbulent inflow
+   2) wave effect on tidal turbine
+   
+d. hydro-turbine noise
+e. wake 
+f. cavitation
+g. Bio-fouling
+
+
+
+
+3. Computational hydrodynamic methodology
+	a Rapid solvers for the the horizontal axis marine turbine (HAMT) rotor in free space
+		1) The steady BEM method
+		2) The unsteady BEM method
+	b  CFD 
+		1) Turbulent flow simulation brief review[only brief review on DNS, LES and DES, as you have not used them in the project]
+		2) Turbulent flow modelling
+			a) RANS and URANS
+			b) The global rotating grid and local sliding grid approaches
+                                 [The global rotating grid is good for free space problems involving only the rotor and the sliding grid is more general and good for simulating the rotor+pylon and in confined space as including free surface waves and sea floor,
+                                   but requires more computational resources]
+			c) Water wave modelling: The VOF approach and the one phase approximation [using UDF]
+
+4. Blade optimization based on  CIRCLE method and momentum theory
+	a. Performance improvement of a small turbine  based on CIRCLE methods
+	b. Optimal design based on momentum theory
+             c.  the acoustics analysis of  the E387 and A7 rotors
+	   1) The FWH and Gutin’s acoustic methodology
+	   2)  Results and Conclusion
+             e. summary
+
+5.  Free surface effects on HAMT
+	a. The water waves analytical description
+                 1) linear and nonlinear wave
+	b. Numerical methods
+                 1) Unsteady BEM and the RANS *one phase* approximation analysis [new]
+	    2) The *two phase VOF* [or level set] analysis [If you can get results, new]
+             C. Parametric study of wave effects on MCT
+                  1) wave amplitude effect on performance and wake
+                  2) wave length  effect on performance and wake
+                  3) water depth effect on performance and wake
+                  4) wave types  effect on performance and wake
+                        + Sine versus 2nd stokes wave
+                  
+            d. summary
+
+6. The HAMT in confined space
+	a. blade  tip clearance effect on performance and wake 
+                  1) variable tip clearance with and without wave
+             b. pylon effect on performance and wake
+             c. sea floor effect on performance and wake
+             d. summary
+
+7. Summary and future work
